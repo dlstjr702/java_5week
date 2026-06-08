@@ -26,6 +26,25 @@ clear << 깔끔한 창으로 만들기
 <사용자 정보 설정> = 문자열사이에 공백있으면 "" 해두기<br>
 git config --global user.name "John Doe" <br>
 git config --global user.email johndoe@example.com<br>
+<br>
+<원격저장소><br>
+
+
+echo "# javaPro" >> README.md<br>
+/*or create a new repository on the command line*/
+git init<br>
+git add README.md<br>
+git commit -m "first commit"<br>
+git branch -M main<br>
+git remote add origin https://github.com/dlstjr702/javaPro.git<br>
+git push -u origin main<br>
+
+<br>
+
+/*or push an existing repository from the command line*/
+git remote add origin https://github.com/dlstjr702/javaPro.git<br>
+git branch -M main<br>
+git push -u origin main<br>
 
 -------------------------------------------------------------------------------------------------------------------------------------
 <20260609 화요일 수업자료><br>
