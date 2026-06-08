@@ -63,25 +63,40 @@ git branch -M main<br>
 git push -u origin main<br>
 
 
- <img width="1136" height="648" alt="화면 캡처 2026-06-08 115156" src="https://github.com/user-attachments/assets/aa12e49a-be33-42a3-91e0-f053355dff38" />
+ <img width="1136" height="648" alt="화면 캡처 2026-06-08 115156" src="https://github.com/user-attachments/assets/aa12e49a-be33-42a3-91e0-f053355dff38" /><br>
 
 
 
 
-( 집이라는 가정<집이나 개인 노트북에서 할경우> )
-1. 원격저장소를 복제(Clone)
-(깃설치 > 사용자 등록 > 원격저장소등록 순서해야함)
+( 집이라는 가정<집이나 개인 노트북에서 할경우> )<br>
+1. 원격저장소를 복제(Clone)<br>
+(깃설치 > 사용자 등록 > 원격저장소등록 순서해야함)<br>
 <img width="598" height="387" alt="화면 캡처 2026-06-08 121600" src="https://github.com/user-attachments/assets/cb6bb27d-9242-4e50-bed9-be1fbf2bc2c6" /><br>
-
-add > status > commit (메세지와 함께입력 > push(로컬저장소에 등록)
-<img width="909" height="915" alt="화면 캡처 2026-06-08 122212" src="https://github.com/user-attachments/assets/e5085bc0-2482-4c16-a840-cb9dc8d00c02" />
+<br>
+add > status > commit (메세지와 함께입력 > push(로컬저장소에 등록)<br>
+<img width="909" height="915" alt="화면 캡처 2026-06-08 122212" src="https://github.com/user-attachments/assets/e5085bc0-2482-4c16-a840-cb9dc8d00c02" /><br>
 
 
 
 이클립스에서 하는법 
-리스트창에서 마우스 오른쪽 > import > 
-리스트창에서 마우스 오른쪽 > team 메뉴> pull/push origin으로 올리고 내리고 하ㅣㄱ
-<img width="1842" height="971" alt="화면 캡처 2026-06-08 141519" src="https://github.com/user-attachments/assets/43b99434-42f8-470f-af8b-432c231d0e4c" />
+리스트창에서 마우스 오른쪽 > import > <br>
+리스트창에서 마우스 오른쪽 > team 메뉴> pull/push origin으로 올리고 내리고 하기<br>
+<img width="1842" height="971" alt="화면 캡처 2026-06-08 141519" src="https://github.com/user-attachments/assets/43b99434-42f8-470f-af8b-432c231d0e4c" /><br>
+상단 window메뉴 > show view > other<br>
+<img width="336" height="448" alt="화면 캡처 2026-06-08 152814" src="https://github.com/user-attachments/assets/0d366cf4-fe1e-41b0-8315-c87f3009bf56" /><br>
+
+
+
+
+<깃 브렌치><br>
+git branch << 브랜치 확인법<br>
+git branch -D 지울파일명 << 삭제<br>
+<img width="762" height="623" alt="화면 캡처 2026-06-08 150334" src="https://github.com/user-attachments/assets/fa7eef64-b157-4780-a2c9-5c8cbbc2693e" /><br>
+<br>
+git log << 로그확인<br>
+git merge << 병합하기<br>
+git checkout 이동할명 << 이동<br>
+echo  >> README.md  << README.md라는 파일 만들어<br>
 
 
 
