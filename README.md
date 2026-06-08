@@ -1,4 +1,5 @@
-<img width="1842" height="971" alt="화면 캡처 2026-06-08 141519" src="https://github.com/user-attachments/assets/05972890-022d-4fda-abe2-2289b29fb41d" />
+
+
 # java_5week
 쌍용교육센터 자바교육 5주차
 
@@ -77,6 +78,10 @@ add > status > commit (메세지와 함께입력 > push(로컬저장소에 등�
 
 
 
+이클립스에서 하는법 
+리스트창에서 마우스 오른쪽 > import > 
+리스트창에서 마우스 오른쪽 > team 메뉴> pull/push origin으로 올리고 내리고 하ㅣㄱ
+<img width="1842" height="971" alt="화면 캡처 2026-06-08 141519" src="https://github.com/user-attachments/assets/43b99434-42f8-470f-af8b-432c231d0e4c" />
 
 
 
