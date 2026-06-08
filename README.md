@@ -18,6 +18,10 @@ git config --system  << 관리자 권한 설정 변경가능<br>
 git config --global  << 특정 사용자의 모든 저장소 설정<br>
 git config --local   << Git 디렉토리에 있고 특정 저장소(혹은 현재 작업 중인 프로젝트)에만 적용<br>
 git help config  << 도움말<br>
+git init    << git 폴더 생성
+code .   << vs코드열림
+Q << 창나가기
+clear << 깔끔한 창으로 만들기
 
 <사용자 정보 설정> = 문자열사이에 공백있으면 "" 해두기<br>
 git config --global user.name "John Doe" <br>
