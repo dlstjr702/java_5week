@@ -2,11 +2,11 @@
 쌍용교육센터 자바교육 5주차
 
 
-
-
 -------------------------------------------------------------------------------------------------------------------------------------
 <20260608 월요일 수업자료><br>
 https://thebook.io/080212/0018/<br>
+
+
 - 깃설치 및 교육<br>
 Committed란 데이터가 로컬 데이터베이스에 안전하게 저장됐다는 것을 의미한다.<br>
 Modified는 수정한 파일을 아직 로컬 데이터베이스에 커밋하지 않은 것을 말한다.<br>
@@ -18,20 +18,21 @@ git config --system  << 관리자 권한 설정 변경가능<br>
 git config --global  << 특정 사용자의 모든 저장소 설정<br>
 git config --local   << Git 디렉토리에 있고 특정 저장소(혹은 현재 작업 중인 프로젝트)에만 적용<br>
 git help config  << 도움말<br>
-git init    << git 폴더 생성<br>
-git remote -v  << 깃 설치되었는지 확인<br>
+git init    << git 폴더(directory) 생성<br>
+git remote -v  << 원격저장소 깃이 설치되었는지 확인<br>
+git remote add origin   << 깃 원격저장소 추가(등록)하는명령<br>
+(git remote add origin https://github.com/dlstjr702/javaPro.git) << origin은 옆에 주소를 담아둔다 별칭<br>
+<img width="573" height="233" alt="화면 캡처 2026-06-08 114546" src="https://github.com/user-attachments/assets/af1f18aa-3089-48ea-b9f9-a1cc0da580d9" /><br>
+git push -u origin main  << 원격저장소에 올리기 (PUSH)
+
+
 git status   << 깃 상태확인<br>
 <img width="700" height="338" alt="화면 캡처 2026-06-08 112541" src="https://github.com/user-attachments/assets/c810b7f9-b84b-4841-a0ff-94ee36f54aec" /><br>
-git add << 추가 후  깃상태확인 메세지 출력하면 아래이미지처럼됨<br>
+git add << 추가 후  깃상태확인 메세지 출력하면 아래이미지처럼됨(git add .) .<은 모든것 <br>
 <img width="718" height="387" alt="화면 캡처 2026-06-08 112946" src="https://github.com/user-attachments/assets/b2949a5e-e66a-4f76-a901-3097034b2df0" /><br>
 <img width="689" height="289" alt="화면 캡처 2026-06-08 113141" src="https://github.com/user-attachments/assets/e5624608-bd7f-4705-ac08-3f34a3173223" /><br>
 <img width="679" height="379" alt="화면 캡처 2026-06-08 113255" src="https://github.com/user-attachments/assets/16f1e0b7-df6d-4a70-830c-0f63502cd6c0" /><br>
 <img width="744" height="762" alt="화면 캡처 2026-06-08 113556" src="https://github.com/user-attachments/assets/bbc77bd1-0521-4e8e-8144-30eabe3feb5c" /><br>
-
-
-
-
-
 
 code .   << vs코드열림
 Q << 창나가기
@@ -42,7 +43,6 @@ git config --global user.name "John Doe" <br>
 git config --global user.email johndoe@example.com<br>
 <br>
 <원격저장소><br>
-
 
 echo "# javaPro" >> README.md<br>
 /*or create a new repository on the command line*/
@@ -59,6 +59,26 @@ git push -u origin main<br>
 git remote add origin https://github.com/dlstjr702/javaPro.git<br>
 git branch -M main<br>
 git push -u origin main<br>
+
+
+ <img width="1136" height="648" alt="화면 캡처 2026-06-08 115156" src="https://github.com/user-attachments/assets/aa12e49a-be33-42a3-91e0-f053355dff38" />
+
+
+
+
+( 집이라는 가정<집이나 개인 노트북에서 할경우> )
+1. 원격저장소를 복제(Clone)
+(깃설치 > 사용자 등록 > 원격저장소등록 순서해야함)
+<img width="598" height="387" alt="화면 캡처 2026-06-08 121600" src="https://github.com/user-attachments/assets/cb6bb27d-9242-4e50-bed9-be1fbf2bc2c6" /><br>
+
+add > status > commit (메세지와 함께입력 > push(로컬저장소에 등록)
+<img width="909" height="915" alt="화면 캡처 2026-06-08 122212" src="https://github.com/user-attachments/assets/e5085bc0-2482-4c16-a840-cb9dc8d00c02" />
+
+
+
+
+
+
 
 -------------------------------------------------------------------------------------------------------------------------------------
 <20260609 화요일 수업자료><br>
