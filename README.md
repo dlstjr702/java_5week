@@ -98,7 +98,8 @@ git merge << 병합하기<br>
 git checkout 이동할명 << 이동<br>
 echo  >> README.md  << README.md라는 파일 만들어<br>
 
-리스트창에서 마우스 오른쪽 > team > switch to >new <<브랜치 생성 
+리스트창에서 마우스 오른쪽 > team > switch to >new <<브랜치 생성  <br>
+리스트창에서 마우스 오른쪽 > merge <<Merge  <br>
 
 
 
